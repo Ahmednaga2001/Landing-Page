@@ -38,9 +38,9 @@ const Footer = () => {
                                 </Col>
                                 <Col xs={12} md={12} lg={4}>
                                     <div className="footer-icons">
-                                        <TiSocialLinkedinCircular className='icon' />
-                                        <TiSocialTwitterCircular className='icon' />
-                                        <CiFacebook className='icon' />
+                                        <a href="#" className='footer-link'><TiSocialLinkedinCircular className='icon' /></a>
+                                        <a href="#" className='footer-link'><TiSocialTwitterCircular className='icon' /></a>
+                                        <a href="#" className='footer-link'><CiFacebook className='icon' /></a>
                                     </div>
                                 </Col>
                                 <Col xs={12} md={12} lg={4}>

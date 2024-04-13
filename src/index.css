@@ -28,7 +28,7 @@ body{
 }
 body h2{
   color: #fff;
-  font-size: 60px;
+  font-size: 64px;
   font-weight: bold;
   line-height: 90px;
   font-family: 'JannaT';
@@ -56,7 +56,7 @@ body span , body a{
 }
 @media (max-width : 768px) {
   body h2{
-    font-size: 45px;
+    font-size: 50px;
     width: 100%;
   }
   body h3{
@@ -100,6 +100,11 @@ body span , body a{
   border-radius: 12px;
   text-align: right;
 }
+.nav input:focus{ 
+  outline: none;
+  border: none;
+  box-shadow: none;
+ }
 .nav form{
   position: relative;
 }
@@ -137,32 +142,45 @@ body span , body a{
     left: 60px;
   }
 }
- .nav input:focus{ 
-  outline: none;
-  border: none;
-  box-shadow: none;
- }
+
 /*end Nav */
 
 /* start Home */
 
 .home{
-  background-color: var(--main-color);
-  padding: 200px 0;
-  min-height: 70vh;
+   background-color: var(--main-color);
+  padding: 100px 0;
   position: relative;
+  background-size: cover;
+  min-height: 70vh;
+  
 
+}
+.home-overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../src/assets/OBJECTS.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 15%;
+
+
+}
+
+.home-content{
+  padding-top: 100px;
 }
 
 .home h2{
   width: 50%;
-
 }
 .home h3{
   width: 60%;
   margin: auto;
   font-family: 'JannaL';
 }
+
 @media (max-width : 991px) {
   .home h2{
     width: 100%;
@@ -172,8 +190,10 @@ body span , body a{
     width: 100%;
     text-align: center;
   }
+
   
 }
+
 /* end Home */
 
 /* start cursoul */
@@ -394,6 +414,7 @@ body .content-Link .arrow-icon{
   color: #000000;
   font-weight: bold;
   font-size: 18px;
+  padding-top: 10px;
 }
 .reviews-header{
   display: flex;
@@ -418,14 +439,25 @@ body .content-Link .arrow-icon{
   justify-content: center;
   padding: 20px 0;
 }
+.reviews-icons{
+  display: flex;
+  justify-content: flex-end;
+}
+.reviews-icon{
+  color: #845F38;
+  font-size: 20px;
+}
 .reviews-rate{
-  background-color: #fff;
-  /* height: 20vh; */
+  background-image: url("../src/assets/OBJECTS.png");
+  background-repeat: no-repeat;
+  background-size: cover;  /* height: 20vh; */
   width: 100%;
   text-align: center;
   overflow: hidden;
+  background-color: #fff;
 
 }
+
 .reviews-rate-container{
   padding: 20px 0;
 }
@@ -516,7 +548,7 @@ body .content-Link .arrow-icon{
 
 /* start company */
 .company{
-  padding: 20px 0;
+  padding: 30px 0;
   width: 100%;
 }
 .company .parent{
@@ -548,8 +580,23 @@ body .content-Link .arrow-icon{
 }
 /* end company */
 
-.service-three{
+.service-three , .service-two{
   padding: 100px 0;
+  position: relative;
+  background-color: var(--main-color);
+
+
+}
+.service-three-overlay , .service-two-overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../src/assets/bg.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5%;
+
+
 }
 .service-three .scrolling-container{
   
@@ -622,6 +669,9 @@ body .content-Link .arrow-icon{
 .footer-icons{
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
+}
+.footer-icons a{
+  color: #fff;
 }
 .footer-icons .icon{
   font-size: 50px;

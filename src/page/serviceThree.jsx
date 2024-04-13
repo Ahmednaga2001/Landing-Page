@@ -40,6 +40,7 @@ export default function ServiceThree() {
     ])
   return (
     <section className='service service-three' style={{backgroundColor : 'var(--main-color)'}}>
+      <div className="service-three-overlay"></div>
       <Container>
         <Row>
           <Col xs={12} md={12} lg={6}>

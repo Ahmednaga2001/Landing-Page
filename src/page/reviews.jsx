@@ -7,6 +7,8 @@ import reviewImg1 from "../assets/reviewone.png"
 import reviewImg2 from "../assets/reviewstwo.png"
 import reviewImg3 from "../assets/reviewthree.png"
 import reviewImg4 from "../assets/reviewfour.png"
+import { SiPowerautomate } from "react-icons/si";
+
 import { useEffect, useState } from 'react';
 function Reviews() {
     const data = [
@@ -79,9 +81,11 @@ function Reviews() {
                     <Col xs={12} md={6} lg={3}>
                         <div className="reviews-bottom">
                             <div className="reviews-bottom-top">
-                                <div className="reviews-bottom-icon">
-                                    <PiQuotesThin />
-                                    <PiQuotesThin />
+                                <div className="reviews-icons">
+                                    {/* <PiQuotesThin />
+                                    <PiQuotesThin /> */}
+                                    <SiPowerautomate className='reviews-icon'/>
+                                    <SiPowerautomate className='reviews-icon'/>
                                 </div>
                                 <p>
                                     تعاقدي مع مكتب المحامي محمد أبو ضيف وشركائه الخبراء مكَّنني على تحقيق أهدافي القانونية بداية من كتابة العقود وحتى تأسيس الشركة في مصر الحبيبة. حقاً أنا أقدر ذلك
@@ -106,9 +110,11 @@ function Reviews() {
                                 <img src={reviewImg2} alt="reviews" />
                             </div>
                             <div className="reviews-top-bottom">
-                                <div className="reviews-bottom-icon">
-                                    <PiQuotesThin />
-                                    <PiQuotesThin />
+                                <div className="reviews-icons">
+                                    {/* <PiQuotesThin />
+                                    <PiQuotesThin /> */}
+                                     <SiPowerautomate className='reviews-icon'/>
+                                    <SiPowerautomate className='reviews-icon'/>
                                 </div>
                                 <p>
                                     خدمات قانونية على أعلى مستوى تدعم عالم المال والأعمال، والأفضل من ذلك خبرة المحامين وسرعة الأداء والرد. شكراً جزيلاً على هذا الخبرات اللامعة
@@ -119,9 +125,11 @@ function Reviews() {
                     <Col xs={12} md={6} lg={3}>
                         <div className="reviews-bottom">
                             <div className="reviews-bottom-top">
-                                <div className="reviews-bottom-icon">
-                                    <PiQuotesThin />
-                                    <PiQuotesThin />
+                                <div className="reviews-icons">
+                                    {/* <PiQuotesThin />
+                                    <PiQuotesThin /> */}
+                                     <SiPowerautomate className='reviews-icon'/>
+                                    <SiPowerautomate className='reviews-icon'/>
                                 </div>
                                 <p>
                                     دقة عالية وسرعة في الإداء وتعامل راقي مع محامو المكتب. بدعمهم تتحقق الأهداف وتحل المشكلات القانونية، شكراً لكم
@@ -146,9 +154,11 @@ function Reviews() {
                                 <img src={reviewImg4} alt="reviews" />
                             </div>
                             <div className="reviews-top-bottom">
-                                <div className="reviews-bottom-icon">
-                                    <PiQuotesThin />
-                                    <PiQuotesThin />
+                                <div className="reviews-icons">
+                                    {/* <PiQuotesThin />
+                                    <PiQuotesThin /> */}
+                                     <SiPowerautomate className='reviews-icon'/>
+                                    <SiPowerautomate className='reviews-icon'/>
                                 </div>
                                 <p>جهود إستثنائية في دعم الموكلين والعمل على خطاهم. سعيد بتعاملي مع المجموعة التجارية والبحرية وممتن لما قدموه لي من خدمات</p>
                             </div>

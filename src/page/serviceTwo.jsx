@@ -46,7 +46,8 @@ export default function ServiceTwo() {
        
     ])
   return (
-    <section className='service' style={{backgroundColor : 'var(--main-color)'}}>
+    <section className='service service-two' style={{backgroundColor : 'var(--main-color)'}}>
+      <div className='service-two-overlay'></div>
       <Container>
         <Row>
           <Col xs={12} md={12} lg={6}>
