@@ -77,7 +77,7 @@ function Reviews() {
                     <FaCrown className='team-icon' />
                 </div>
 
-                <Row style={{ marginTop: '100px' }}>
+                <Row style={{ marginTop: '100px'  }}>
                     <Col xs={12} md={6} lg={3}>
                         <div className="reviews-bottom">
                             <div className="reviews-bottom-top">

@@ -544,6 +544,9 @@ body .content-Link .arrow-icon{
   width: 80%;
   margin: auto;
 }
+.contact form{
+  text-align: center;
+}
 /* end conatct */
 
 /* start company */

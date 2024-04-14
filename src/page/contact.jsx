@@ -7,7 +7,7 @@ function Contact() {
   return (
     <section className='contact'>
         <Container>
-            <Row>
+            <Row className='justify-content-center'>
                 <Col xs={12} md={12} lg={6}>
                    <form action="">
                    <Row>
@@ -28,9 +28,9 @@ function Contact() {
                     </Row>
                    </form>
                 </Col>
-                <Col xs={12} md={12} lg={6}>
+                {/* <Col xs={12} md={12} lg={6}>
                     <img src={logo} alt="logo" />
-                </Col>
+                </Col> */}
 
             </Row>
         </Container>
